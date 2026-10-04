@@ -4,7 +4,7 @@ LoveMatch é uma calculadora de compatibilidade que estima a possibilidade de du
 
 Ficou curioso? Acesse o LoveMatch e descubra se vocês dão match.
 
-[Acesse Aqui](lovematch-chi.vercel.app)
+[Acesse Aqui](https://lovematch-chi.vercel.app)
 
 ## Sobre o projeto
 
