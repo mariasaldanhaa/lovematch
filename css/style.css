@@ -124,6 +124,7 @@ main .quadrado-main button {
 main .quadrado-main button:hover {
     background: var(--cor-texto-principal);
     color: var(--cor-detalhes);
+    cursor: pointer;
 }
 
 /* RODAPÉ */
