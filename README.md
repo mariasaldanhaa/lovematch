@@ -50,7 +50,7 @@ A lógica foi desenvolvida de forma determinística, portanto, os mesmos nomes s
 ## Estrutura do projeto
 
 ```text
-LoveMatch/
+lovematch/
 ├── css/
 │   └── style.css
 ├── js/
