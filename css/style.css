@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    /* CORES */
+    --cor-fundo: #FFF0F3;
+    --cor-texto-principal: #E5465F;
+    --cor-texto-secundaria: #292333;
+    --cor-principal: #ED5069;
+    --cor-rodape: #292333;
+    --cor-cabecalho: #FFFFFF;
+    --cor-detalhes: #DDDDDD;
+
+    /* FONTES */
+    --fonte-principal: 'Poppins', sans-serif;
+    --fonte-secundaria: 'Inter', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* CABECALHO */
+header {
+    background-color: var(--cor-cabecalho);
+    text-align: center;
+    width: auto;
+    height: 100px;
+}
+
+header img {
+    width: auto;
+    height: 65px;
+    padding: 15px 0;
+}
+
+/* CONTEÚDO */
+main {
+    text-align: center;
+    padding: 25px 50px;
+    flex: 1;
+}
+
+main #frase-container {
+    font: 40px var(--fonte-principal);
+    color: var(--cor-texto-principal);
+    font-weight: 600;
+}
+
+main .quadrado-main {
+    background-color: var(--cor-cabecalho);
+    padding: 25px 0;
+    border-radius: 45px;
+    margin: 25px auto;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 400px;
+    box-shadow: 0 8px 15px var(--cor-detalhes);
+}
+
+main .quadrado-main #pergunta {
+    font: 30px var(--fonte-principal);
+    color: var(--cor-texto-secundaria);
+    font-weight: 500;
+}
+
+main .quadrado-main input {
+    width: 70%;
+    box-sizing: border-box;
+    border-style: none;
+    border: var(--cor-detalhes) solid 1px;
+    box-shadow: inset var(--cor-detalhes) 0 0 1px;
+    margin: 8px auto 20px;
+    padding: 10px 15px;
+}
+
+main .quadrado-main .campo {
+    width: 70%;
+    text-align: left;
+    margin-top: 15px;
+}
+
+main .quadrado-main .campo label {
+    display: block;
+    font: 18px var(--fonte-secundaria);
+    color: var(--cor-texto-secundaria);
+    font-weight: 500;
+}
+
+main .quadrado-main .campo input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    border: 1px solid var(--cor-detalhes);
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+
+main .quadrado-main .campo input:hover {
+    border-color: var(--cor-principal);
+}   
+
+main .quadrado-main button {
+    border-style: none;
+    background: var(--cor-principal);
+    color: var(--cor-cabecalho);
+    font: 20px var(--fonte-principal);
+    font-weight: 500;
+    padding: 8px 40px;
+    border-radius: 30px;
+    transition: 0.5s ease;
+    margin-top: 20px;
+}
+
+main .quadrado-main button:hover {
+    background: var(--cor-texto-principal);
+    color: var(--cor-detalhes);
+}
+
+/* RODAPÉ */
+footer {
+    background-color: var(--cor-rodape);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer #logo {
+    width: auto;
+    height: 100px;
+}
+
+footer .github {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .github #icone-github {
+    width: auto;
+    height: 25px;
+}
+
+footer .github a {
+    text-decoration: none;
+    font: 16px var(--fonte-secundaria);
+    font-weight: 500;
+    color: var(--cor-cabecalho);
+}
+
+footer hr {
+    width: 100%;
+    margin: 20px 0;
+    border: none;
+    border-top: 1px solid var(--cor-cabecalho);
+}
+
+footer #copyright {
+    color: var(--cor-cabecalho);
+    font: 15px var(--fonte-principal);
+}
+
+#resultado {
+    margin-top: 20px;
+    font: 32px var(--fonte-principal);
+    color: var(--cor-principal);
+    font-weight: 600;
+}
+
+#mensagem {
+    margin-top: 20px;
+    font: 15px var(--fonte-secundaria);
+    color: var(--cor-texto-secundaria);
+    font-weight: 500;
+}

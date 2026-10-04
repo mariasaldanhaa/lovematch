@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoveMatch</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.png"/>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+    <!-- CABEÇALHO -->
+    <header class="header">
+        <img 
+            src="img/logo.png"
+            alt="Logo do site LoveMatch"
+        />
+    </header>
+
+    <!-- CONTEÚDO -->
+    <main>
+        <span id="frase-container">DESCUBRA SE VOCÊS COMBINAM!</span>
+
+        <div class="quadrado-main">
+            <span id="pergunta">SERÁ QUE DÁ MATCH?</span>
+
+            <div class="campo">
+                <label id="pessoa-um">Nome da pessoa 1:</label>
+                <input
+                    type="text"
+                    placeholder="Digite o nome da primeira pessoa"
+                    aria-label="Campo de texto para digitar o nome da primeira pessoa"
+                    id="nome1"
+                />
+
+                <label id="pessoa-dois">Nome da pessoa 2:</label>
+                <input
+                    type="text"
+                    placeholder="Digite o nome da segunda pessoa"
+                    aria-label="Campo de texto para digitar o nome da segunda pessoa"
+                    id="nome2"
+                />
+            </div>
+
+            <button 
+                type="button"
+                aria-label="Botão para calcular a possibilidade"
+                id="btnCalcular"
+            >
+                CALCULAR
+            </button>
+
+            <div id="resultado"></div>
+            <div id="mensagem"></div>
+        </div>
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer>
+        <img
+            src="img/logo_white.svg"
+            alt="Logo do site LoveMatch"
+            id="logo"
+        />
+
+        <div class="github">
+            <a href="https://github.com/mariasaldanhaa">
+                <img 
+                    src="img/logo_github.png"
+                    alt="Logo do GitHub"
+                    id="icone-github"
+                />
+
+                <span>mariasaldanhaa</span>
+            </a>
+        </div>
+
+        <hr>
+
+        <span id="copyright">&copy; 2026 LoveMatch — Todos os direitos reservados.</span>
+
+        <script src="js/script.js"></script>
+    </footer>
+</body>
+</html>
